@@ -1,1 +1,13 @@
+#include <stdio.h>
+int main() {
 
+	float d, L, pi = 3.14;
+
+    scanf_s("%f", &d);
+	L = d * pi;
+	printf(" %.2f\n", L);
+	
+
+
+	return 0;
+}
