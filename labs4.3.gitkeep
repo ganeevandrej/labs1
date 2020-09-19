@@ -1,1 +1,14 @@
+#include <stdio.h>
+int main() {
 
+	float a, b, sa;
+
+	scanf_s("%f", &a);
+	scanf_s("%f", &b);
+	sa = (a + b) / 2;
+	printf(" %.1f\n", sa);
+
+
+
+	return 0;
+}
