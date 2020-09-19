@@ -7,7 +7,7 @@ int main() {
     scanf_s("%f", &a);
 	scanf_s("%f", &b);
 	S = a * b;
-	P = (a + b) / 2;
+	P = (a + b) * 2;
 	printf(" %.2f\n", S);
 	printf(" %.2f\n", P);
 
