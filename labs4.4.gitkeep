@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main() {
 
-	float a, b, sum, r, p, car;
+	int a, b, sum, r, p, car;
 
-	scanf_s("%f %f", &a, &b);
+	scanf_s("%d %d", &a, &b);
 	;
 	sum = a + b;
 	r = a - b;
 	p = a * b;
 	car = (a * a) / (b * b);
-	printf(" %.1f\n %.1f\n %.1f\n %.1f\n", sum, r, p, car);
+	printf(" %d\n %d\n %d\n %d\n", sum, r, p, car);
 
 	return 0;
 }
