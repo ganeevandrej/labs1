@@ -5,7 +5,7 @@ int main() {
 
     scanf_s("%f", &d);
 	L = d * pi;
-	printf(" %.2f\n", L);
+	printf(" %f\n", L);
 	
 
 
