@@ -1,1 +1,18 @@
+#include <stdio.h>
+int main() {
 
+	int a, b, sum, r, p, car;
+
+	scanf_s("%d %d", &a, &b);
+
+	a = abs(a);
+	b = abs(b);
+	sum = a + b;
+	r = a - b;
+	p = a * b;
+	car = (a * a) / (b * b);
+
+	printf(" %d\n %d\n %d\n %d\n", sum, r, p, car);
+
+	return 0;
+}
