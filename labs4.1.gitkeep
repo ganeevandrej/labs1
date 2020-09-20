@@ -1,14 +1,14 @@
 #include <stdio.h> 
 int main() {
 
-	float a, b, S, P;
+	int a, b, S, P;
 
-    scanf_s("%f", &a);
-	scanf_s("%f", &b);
+	scanf_s("%d", &a);
+	scanf_s("%d", &b);
 	S = a * b;
 	P = (a + b) * 2;
-	printf(" %.2f\n", S);
-	printf(" %.2f\n", P);
+	printf(" %d\n", S);
+	printf(" %d\n", P);
 
 
 	return 0;
